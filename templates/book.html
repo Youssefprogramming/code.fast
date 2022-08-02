@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/style4.css">
+
+    <!-- icons -->
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- mapbox api -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Tethics Excellence Academy</title>
+</head>
+<body>
+
+  <!-- header section -->
+
+  <header id="header">
+    <div id="navbar">
+       <div class="hamburger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+       </div>
+       <div class="logo">
+          <a href="/" class="tethics-logo">home</a>
+       </div>
+       <ul class="nav-links">
+          <li><a href="/Advanced">Python Tutorial</a></li>
+          <li><a href="/project">Python Projects</a></li>
+          <li><a href="/courses">Python courses</a></li>
+          <li><a href="/book">Python Book</a></li>
+       </ul>
+    </div>
+ </header>
+
+
+
+  <!-- banner section -->
+<br><br>
+  <section class="banner">
+    <h1>Best book to learn Python</h1>
+    <h2>from beginning to become a profesionnel python developer</h2>
+
+<br><br>
+  <!-- image gallery section -->
+  <div class="container-gal" id="gallery">
+    <div class="details-gal">
+       <h1>Python books</h1>
+    </div>
+    <div class="main-box-gal">
+       <div class="box-gal box-main-gal">
+          <div class="icon-gal">
+             <img src="static/images/imag1.png" width="350px" height="auto" alt="">
+          </div>
+       </div>
+        <br>
+        <br>
+        <br>
+
+       <div class="box-gal box-main-gal">
+          <div class="icon-gal">
+             <img src="static/images/imag2.jpg" width="350px" height="auto" alt="">
+          </div>
+       </div>
+
+       <div class="box-gal box-main-gal"><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="icon-gal">
+             <img src="static/images/imag3.jpg" width="350px" height="auto" alt="">
+          </div>
+       </div>
+        <br>
+        <br>
+        <br>
+
+       <div class="box-gal box-main-gal"><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="icon-gal">
+             <img src="static/images/imag4.jpg" width="350px" height="auto" alt="">
+          </div>
+       </div>
+        <br>
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- scroll to top button -->
+
+
+
+  <!-- js -->
+
+
+  <!-- mapbox api integration -->
+
+  <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
+      const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [77.4126, 23.2599],
+          zoom: 12
+      });
+
+      const marker1 = new mapboxgl.Marker()
+      .setLngLat([77.4126, 23.2599])
+      .addTo(map);
+  </script>
+
+
+
+ </body>
+</html>
+
+<br>
+<br>
+<br>
+<br>
